@@ -80,10 +80,21 @@ width: 500px;
     margin-bottom: 20px;
 }
 /*main section styles */
-.about{
-    margin: 130px 130px;
-    padding: 130px;
-    border-radius: 10px;
-    background-color:#fff8f3 ;
+main{
+    max-width: 1140px;
+    margin: 0 auto;
 }
 /* about section styles*/
+.about{
+    margin: 130px 0px;
+    border-radius: 10px;
+    background-color:#fff8f3 ;
+    padding: 130px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
